@@ -15,7 +15,7 @@ cask "spex-glance" do
   # Updates itself through Sparkle; brew upgrade still works when the cask is bumped.
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Spex Glance.app"
 
