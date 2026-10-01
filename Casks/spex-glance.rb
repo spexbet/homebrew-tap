@@ -21,6 +21,15 @@ cask "spex-glance" do
 
   zap trash: [
     "~/Library/Application Support/Spex Glance",
+    # 0.3.0+ (bet.spex.glance)
+    "~/Library/Caches/bet.spex.glance",
+    "~/Library/Containers/bet.spex.glance",
+    "~/Library/Containers/bet.spex.glance.widget",
+    "~/Library/Group Containers/JK9VDUH488.bet.spex.glance",
+    "~/Library/HTTPStorages/bet.spex.glance",
+    "~/Library/Preferences/bet.spex.glance.plist",
+    "~/Library/Saved Application State/bet.spex.glance.savedState",
+    # pre-0.3.0 (com.example.spexglance)
     "~/Library/Caches/com.example.spexglance",
     "~/Library/Containers/com.example.spexglance",
     "~/Library/Containers/com.example.spexglance.widget",
