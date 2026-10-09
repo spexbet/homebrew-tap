@@ -1,6 +1,6 @@
 cask "spex-glance" do
-  version "0.3.2"
-  sha256 "a698dc5d2ef5730cbd6cffee57f23bf437282310687df5a876f113add295c5f1"
+  version "0.3.3"
+  sha256 "7e844aecde9fef29983715d9e5f124a74de28a9e968b4c02f104c4a769db8c17"
 
   url "https://github.com/spexbet/spex-glance/releases/download/v#{version}/SpexGlance-#{version}.dmg"
   name "Spex Glance"
